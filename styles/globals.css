@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+	@apply font-bold py-2 px-4 rounded-full;
+	background-color: #8929ff;
+}
+
+.btn:hover {
+	background-color: #7a20ea;
+}
+
+.btn-outline {
+}
+
+.btn-side {
+	@apply font-bold py-2 px-4 rounded-full;
+}
+
+.btn-side:hover {
+	background-color: #7a20ea;
+}
+
+img {
+}
+
+.mini-banner {
+	width: 205px;
+	height: 115px;
+}
+
+.sidenav {
+	width: 263px;
+}
+
+.box {
+	background-color: #7a20ea;
+	@apply rounded-lg;
+}
